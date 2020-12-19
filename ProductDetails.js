@@ -61,7 +61,7 @@ export default function ProductDetails() {
      </View>
 
            <View style={styles.searchArea}>
-             <TextInput style={styles.searchBar}placeholder="Search Jacket"/>
+             <TextInput style={styles.searchBar} placeholder="Search Jacket"/>
              
            </View>
 
@@ -113,14 +113,14 @@ const styles = StyleSheet.create({
   
     searchBar: {
       flex: 1,
-      fontSize: 12,
+      fontSize: 15,
       paddingLeft: 10,
       width: "95%",
       height: 52,
       backgroundColor: "white",
       borderRadius: 15,
       textAlign:"left",
-      marginBottom:15
+      marginBottom:15,
     },
     filter:{
       paddingRight:20
